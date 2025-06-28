@@ -7,7 +7,9 @@ public class enemyController : MonoBehaviour
 
     public Transform player;
     public float detectionRadius = 5f;
-    public float attackRadius = 1.8f;
+    public float attackRadius = 1.2f;
+    public float alturaDeteccion = 1.5f;
+    public float alturaAtaque = 1.5f;
     public float speed = 10f;
     public bool enMovimiento;
     private bool recibeDamage;
@@ -16,6 +18,13 @@ public class enemyController : MonoBehaviour
     private jugador playerScript;
     public int vida = 3;
     public bool muerto;
+
+    public Transform puntoA;
+    public Transform puntoB;
+    public float tiempoEsperaEnPunto = 2f;
+
+    private Transform puntoActual;
+    private bool esperando = false;
 
     private Rigidbody2D rb;
     private Vector2 movement;
@@ -26,6 +35,8 @@ public class enemyController : MonoBehaviour
         playerScript = player.GetComponent<jugador>();
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+
+        puntoActual = puntoA;
     }
 
     // Update is called once per frame
@@ -33,7 +44,7 @@ public class enemyController : MonoBehaviour
     {
         bool jugadorVivo = (playerScript != null && !playerScript.muerto);
 
-        animator.SetBool("jugadorM", jugadorVivo); // NUEVO
+        animator.SetBool("jugadorM", jugadorVivo); 
         animator.SetBool("EnMovimiento", enMovimiento);
         animator.SetBool("RecibeDamage", recibeDamage);
 
@@ -69,16 +80,17 @@ public class enemyController : MonoBehaviour
 
     public void Movimiento()
     {
-        float distanceToPlayer = Vector2.Distance(transform.position, player.position);
+        float distanceX = Mathf.Abs(player.position.x - transform.position.x);
+        float distanceY = Mathf.Abs(player.position.y - transform.position.y);
 
-        if (distanceToPlayer < attackRadius && !atacando && !recibeDamage)
+        if (distanceX < attackRadius && distanceY < alturaAtaque && !atacando && !recibeDamage)
         {
             StartCoroutine(SecuenciaDeAtaque());
         }
 
         if (playerScript.muerto || atacando || recibeDamage) return;
 
-        if (distanceToPlayer < detectionRadius)
+        if (distanceX < detectionRadius && distanceY < 1.5f)
         {
             Vector2 direction = (player.position - transform.position).normalized;
 
@@ -93,8 +105,31 @@ public class enemyController : MonoBehaviour
         }
         else
         {
-            movement = Vector2.zero;
-            enMovimiento = false;
+            if (!esperando)
+            {
+                float distancia = Vector2.Distance(transform.position, puntoActual.position);
+
+                if (distancia < 0.2f)
+                {
+                    StartCoroutine(EsperarYRotar());
+                }
+                else
+                {
+                    Vector2 direccion = (puntoActual.position - transform.position).normalized;
+                    movement = new Vector2(direccion.x, 0);
+                    enMovimiento = true;
+                    if (direccion.x != 0)
+                        transform.localScale = new Vector3(Mathf.Sign(direccion.x), 1, 1);
+                }
+
+                if (!recibeDamage)
+                    rb.MovePosition(rb.position + movement * speed * Time.deltaTime);
+            }
+            else
+            {
+                movement = Vector2.zero;
+                enMovimiento = false;
+            }
         }
 
         if (!recibeDamage)
@@ -165,13 +200,30 @@ public class enemyController : MonoBehaviour
         atacando = false;
     }
 
+    private IEnumerator EsperarYRotar()
+    {
+        esperando = true;
+        movement = Vector2.zero;
+        enMovimiento = false;
+
+        yield return new WaitForSeconds(tiempoEsperaEnPunto);
+
+        // Cambiar al siguiente punto
+        puntoActual = (puntoActual == puntoA) ? puntoB : puntoA;
+        esperando = false;
+    }
+
 
     private void OnDrawGizmos()
     {
+        // Rectángulo de detección (amarillo)
         Gizmos.color = Color.yellow;
-        Gizmos.DrawWireSphere(transform.position, detectionRadius);
+        float ancho = detectionRadius * 2f;
+        Gizmos.DrawWireCube(transform.position, new Vector3(ancho, alturaDeteccion, 0));
 
+        // Rectángulo de ataque (rojo)
         Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, attackRadius);
+        float anchoAtaque = attackRadius * 2f;
+        Gizmos.DrawWireCube(transform.position, new Vector3(anchoAtaque, alturaAtaque, 0));
     }
 }

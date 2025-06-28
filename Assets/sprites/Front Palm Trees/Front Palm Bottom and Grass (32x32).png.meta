@@ -126,9 +126,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 10
-        y: 35
+        y: 56
         width: 12
-        height: 61
+        height: 40
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,9 +192,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 33
-        y: 5
+        y: 39
         width: 63
-        height: 60
+        height: 26
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,6 +205,28 @@ TextureImporter:
       bones: []
       spriteID: e4334cb3b5bff89f0800000000000000
       internalID: -463875867332562098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Front Palm Bottom and Grass (32x32)_4
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 64
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43bfbb375be028b4fab7a22742e6a258
+      internalID: 1270238574
       vertices: []
       indices: 
       edges: []
@@ -227,6 +249,7 @@ TextureImporter:
       Front Palm Bottom and Grass (32x32)_1: 7623815313420230498
       Front Palm Bottom and Grass (32x32)_2: 4149243468970886176
       Front Palm Bottom and Grass (32x32)_3: -463875867332562098
+      Front Palm Bottom and Grass (32x32)_4: 1270238574
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

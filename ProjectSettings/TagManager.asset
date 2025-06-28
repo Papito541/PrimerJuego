@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - Espada
+  - Enemigo
   layers:
   - Default
   - TransparentFX
@@ -12,7 +13,7 @@ TagManager:
   - CapaSuelo
   - Water
   - UI
-  - 
+  - Enemigo
   - 
   - 
   - 
