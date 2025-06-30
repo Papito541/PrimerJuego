@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class jugador : MonoBehaviour
 {
+    public PlayerSound PlayerSound;
     public int vida = 3;
     public float velocidad = 20f;
     public float Fuerza_salto = 10f;
@@ -19,6 +20,8 @@ public class jugador : MonoBehaviour
     private float maxComboDelay = 0.5f;
     private bool siguienteComboSolicitado = false;
     public bool muerto;
+    private float pasoCooldown = 0.3f;
+    private float pasoTimer = 0f;
 
     public Animator animator;
     public GameObject correr_particulas;
@@ -80,7 +83,7 @@ public class jugador : MonoBehaviour
         {
             Vector2 nuevaVelocidad = rb.linearVelocity;
             if (!atacando)
-                nuevaVelocidad.x = inputX * velocidad;
+                nuevaVelocidad.x = inputX * velocidad; 
             else
                 nuevaVelocidad.x = 0;
             rb.linearVelocity = nuevaVelocidad;
@@ -102,6 +105,20 @@ public class jugador : MonoBehaviour
             else if (inputX > 0)
                 transform.localScale = new Vector3(1, 1, 1);
         }
+        if (en_Suelo && Mathf.Abs(rb.linearVelocity.x) > 0.1f && !recibeDamage && !atacando)
+        {
+            pasoTimer -= Time.deltaTime;
+
+            if (pasoTimer <= 0f)
+            {
+                PlayerSound.audioSource.PlayOneShot(PlayerSound.caminarAudio,0.5f);
+                pasoTimer = pasoCooldown;
+            }
+        }
+        else
+        {
+            pasoTimer = 0f;
+        }
     }
 
     public void Salto()
@@ -111,6 +128,7 @@ public class jugador : MonoBehaviour
 
         if (en_Suelo && Input.GetKeyDown(KeyCode.Space) && !recibeDamage && !atacando)
         {
+            PlayerSound.PlaySaltar();
             rb.AddForce(new Vector2(0f, Fuerza_salto), ForceMode2D.Impulse);
         }
 
@@ -144,6 +162,7 @@ public class jugador : MonoBehaviour
         if (!recibeDamage)
         {
             recibeDamage = true;
+            PlayerSound.PlayDolor();
             vida -= cantDamage;
             if (vida <= 0)
             {
@@ -205,6 +224,7 @@ public class jugador : MonoBehaviour
     void EjecutarCombo()
     {
         atacando = true;
+        PlayerSound.PlayAtaque();
         animator.ResetTrigger("Ataque1");
         animator.ResetTrigger("Ataque2");
         animator.ResetTrigger("Ataque3");
