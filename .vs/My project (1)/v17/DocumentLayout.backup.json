@@ -7,12 +7,32 @@
       "RelativeMoniker": "D:0:0:{BB33860C-FC84-FB00-B1D4-EBEFA97C68DB}|Assembly-CSharp.Player.csproj|solutionrelative:assets\\scripts\\pause.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB33860C-FC84-FB00-B1D4-EBEFA97C68DB}|Assembly-CSharp.Player.csproj|c:\\users\\intel\\onedrive\\documentos\\github\\primerjuego\\my project (1)\\assets\\scripts\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB33860C-FC84-FB00-B1D4-EBEFA97C68DB}|Assembly-CSharp.Player.csproj|solutionrelative:assets\\scripts\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BB33860C-FC84-FB00-B1D4-EBEFA97C68DB}|Assembly-CSharp.Player.csproj|c:\\users\\intel\\onedrive\\documentos\\github\\primerjuego\\my project (1)\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB33860C-FC84-FB00-B1D4-EBEFA97C68DB}|Assembly-CSharp.Player.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB33860C-FC84-FB00-B1D4-EBEFA97C68DB}|Assembly-CSharp.Player.csproj|C:\\Users\\INTEL\\OneDrive\\Documentos\\GitHub\\PrimerJuego\\My project (1)\\assets\\scripts\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB33860C-FC84-FB00-B1D4-EBEFA97C68DB}|Assembly-CSharp.Player.csproj|solutionrelative:assets\\scripts\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB33860C-FC84-FB00-B1D4-EBEFA97C68DB}|Assembly-CSharp.Player.csproj|c:\\users\\intel\\onedrive\\documentos\\github\\primerjuego\\my project (1)\\assets\\scripts\\vida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB33860C-FC84-FB00-B1D4-EBEFA97C68DB}|Assembly-CSharp.Player.csproj|solutionrelative:assets\\scripts\\vida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB33860C-FC84-FB00-B1D4-EBEFA97C68DB}|Assembly-CSharp.Player.csproj|c:\\users\\intel\\onedrive\\documentos\\github\\primerjuego\\my project (1)\\assets\\scripts\\playercontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB33860C-FC84-FB00-B1D4-EBEFA97C68DB}|Assembly-CSharp.Player.csproj|solutionrelative:assets\\scripts\\playercontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB33860C-FC84-FB00-B1D4-EBEFA97C68DB}|Assembly-CSharp.Player.csproj|c:\\users\\intel\\onedrive\\documentos\\github\\primerjuego\\my project (1)\\assets\\scripts\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB33860C-FC84-FB00-B1D4-EBEFA97C68DB}|Assembly-CSharp.Player.csproj|solutionrelative:assets\\scripts\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BB33860C-FC84-FB00-B1D4-EBEFA97C68DB}|Assembly-CSharp.Player.csproj|C:\\Users\\INTEL\\OneDrive\\Documentos\\GitHub\\PrimerJuego\\My project (1)\\assets\\scripts\\pasarnivel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BB33860C-FC84-FB00-B1D4-EBEFA97C68DB}|Assembly-CSharp.Player.csproj|solutionrelative:assets\\scripts\\pasarnivel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB33860C-FC84-FB00-B1D4-EBEFA97C68DB}|Assembly-CSharp.Player.csproj|C:\\Users\\INTEL\\OneDrive\\Documentos\\GitHub\\PrimerJuego\\My project (1)\\assets\\scripts\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB33860C-FC84-FB00-B1D4-EBEFA97C68DB}|Assembly-CSharp.Player.csproj|solutionrelative:assets\\scripts\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,14 +52,80 @@
               "RelativeDocumentMoniker": "Assets\\scripts\\Pause.cs",
               "ToolTip": "C:\\Users\\INTEL\\OneDrive\\Documentos\\GitHub\\PrimerJuego\\My project (1)\\Assets\\scripts\\Pause.cs",
               "RelativeToolTip": "Assets\\scripts\\Pause.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwCwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAmwEwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T01:58:24.419Z",
+              "WhenOpened": "2025-06-30T15:20:33.51Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "enemyController.cs",
+              "DocumentMoniker": "C:\\Users\\INTEL\\OneDrive\\Documentos\\GitHub\\PrimerJuego\\My project (1)\\Assets\\scripts\\enemyController.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\enemyController.cs",
+              "ToolTip": "C:\\Users\\INTEL\\OneDrive\\Documentos\\GitHub\\PrimerJuego\\My project (1)\\Assets\\scripts\\enemyController.cs",
+              "RelativeToolTip": "Assets\\scripts\\enemyController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAowB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T15:30:33.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayerControler.cs",
+              "DocumentMoniker": "C:\\Users\\INTEL\\OneDrive\\Documentos\\GitHub\\PrimerJuego\\My project (1)\\Assets\\scripts\\PlayerControler.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\PlayerControler.cs",
+              "ToolTip": "C:\\Users\\INTEL\\OneDrive\\Documentos\\GitHub\\PrimerJuego\\My project (1)\\Assets\\scripts\\PlayerControler.cs",
+              "RelativeToolTip": "Assets\\scripts\\PlayerControler.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwKUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T15:23:45.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\INTEL\\OneDrive\\Documentos\\GitHub\\PrimerJuego\\My project (1)\\Assets\\scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\INTEL\\OneDrive\\Documentos\\GitHub\\PrimerJuego\\My project (1)\\Assets\\scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\scripts\\GameManager.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T15:19:27.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Vida.cs",
+              "DocumentMoniker": "C:\\Users\\INTEL\\OneDrive\\Documentos\\GitHub\\PrimerJuego\\My project (1)\\Assets\\scripts\\Vida.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\Vida.cs",
+              "ToolTip": "C:\\Users\\INTEL\\OneDrive\\Documentos\\GitHub\\PrimerJuego\\My project (1)\\Assets\\scripts\\Vida.cs",
+              "RelativeToolTip": "Assets\\scripts\\Vida.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T15:13:03.239Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Timer.cs",
+              "DocumentMoniker": "C:\\Users\\INTEL\\OneDrive\\Documentos\\GitHub\\PrimerJuego\\My project (1)\\Assets\\scripts\\Timer.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\Timer.cs",
+              "ToolTip": "C:\\Users\\INTEL\\OneDrive\\Documentos\\GitHub\\PrimerJuego\\My project (1)\\Assets\\scripts\\Timer.cs",
+              "RelativeToolTip": "Assets\\scripts\\Timer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T14:46:09.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "pasarNivel.cs",
               "DocumentMoniker": "C:\\Users\\INTEL\\OneDrive\\Documentos\\GitHub\\PrimerJuego\\My project (1)\\Assets\\scripts\\pasarNivel.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\pasarNivel.cs",
@@ -51,7 +137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "menu.cs",
               "DocumentMoniker": "C:\\Users\\INTEL\\OneDrive\\Documentos\\GitHub\\PrimerJuego\\My project (1)\\Assets\\scripts\\menu.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\menu.cs",
@@ -59,8 +145,7 @@
               "RelativeToolTip": "Assets\\scripts\\menu.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T21:27:46.001Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T21:27:46.001Z"
             }
           ]
         }

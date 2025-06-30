@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class jugador : MonoBehaviour
 {
+    private int saltosRes;
+    public int saltosMax;
     public PlayerSound PlayerSound;
     public int vida = 3;
     public float velocidad = 20f;
@@ -92,7 +94,7 @@ public class jugador : MonoBehaviour
         bool estaCayendo = !en_Suelo && rb.linearVelocity.y < -0.01f;
         if (estaCayendo || recibeDamage)
         {
-            animator.SetFloat("movimiento", 0f); // evita correr en el aire o si está recibiendo daño
+            animator.SetFloat("movimiento", 0f); // evita correr en el aire o si estï¿½ recibiendo daï¿½o
         }
         else
         {
@@ -126,8 +128,15 @@ public class jugador : MonoBehaviour
         RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, LongitudRayCast, Suelo);
         en_Suelo = hit.collider != null;
 
-        if (en_Suelo && Input.GetKeyDown(KeyCode.Space) && !recibeDamage && !atacando)
+        if (en_Suelo)
         {
+            saltosRes = saltosMax;
+        }
+
+        if (saltosRes>0 && Input.GetKeyDown(KeyCode.Space) && !recibeDamage && !atacando)
+        {
+            saltosRes--;
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0f);
             PlayerSound.PlaySaltar();
             rb.AddForce(new Vector2(0f, Fuerza_salto), ForceMode2D.Impulse);
         }
@@ -164,11 +173,13 @@ public class jugador : MonoBehaviour
             recibeDamage = true;
             PlayerSound.PlayDolor();
             vida -= cantDamage;
+            GameManager.Instance.PerderVida(vida);
             if (vida <= 0)
             {
                 muerto = true;
                 rb.linearVelocity = new Vector2(0, rb.linearVelocity.y); // Detiene el movimiento horizontal
                 animator.SetTrigger("GolpeM");
+                GameManager.Instance.Perder();
             }
             if (!muerto)
             {
@@ -183,7 +194,7 @@ public class jugador : MonoBehaviour
         recibeDamage = false;
         rb.linearVelocity = Vector2.zero;
 
-        // Forzar animación de caída si sigue en el aire
+        // Forzar animaciï¿½n de caï¿½da si sigue en el aire
         RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, LongitudRayCast, Suelo);
         en_Suelo = hit.collider != null;
 

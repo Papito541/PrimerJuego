@@ -32,6 +32,10 @@ public class enemyController : MonoBehaviour
 
     void Start()
     {
+        if (player == null)
+        player = GameObject.FindGameObjectWithTag("Player").transform;
+
+    if (player != null)
         playerScript = player.GetComponent<jugador>();
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
