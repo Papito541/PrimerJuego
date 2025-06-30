@@ -37695,7 +37695,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29e30b5a4f6ea9d4abb472afcc9e0d83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pause: {fileID: 0}
   saltosMax: 1
   PlayerSound: {fileID: 926738669}
   vida: 3
@@ -41365,6 +41364,54 @@ PrefabInstance:
       propertyPath: gameManager
       value: 
       objectReference: {fileID: 1751606027}
+    - target: {fileID: 2317604538101766429, guid: 74dc9f283338d0746995f88e52d98d77, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317604538101766429, guid: 74dc9f283338d0746995f88e52d98d77, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317604538101766429, guid: 74dc9f283338d0746995f88e52d98d77, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317604538101766429, guid: 74dc9f283338d0746995f88e52d98d77, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317604538101766429, guid: 74dc9f283338d0746995f88e52d98d77, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317604538101766429, guid: 74dc9f283338d0746995f88e52d98d77, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4474606976288557203, guid: 74dc9f283338d0746995f88e52d98d77, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4474606976288557203, guid: 74dc9f283338d0746995f88e52d98d77, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4474606976288557203, guid: 74dc9f283338d0746995f88e52d98d77, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4474606976288557203, guid: 74dc9f283338d0746995f88e52d98d77, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4474606976288557203, guid: 74dc9f283338d0746995f88e52d98d77, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 109
+      objectReference: {fileID: 0}
+    - target: {fileID: 4474606976288557203, guid: 74dc9f283338d0746995f88e52d98d77, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -9
+      objectReference: {fileID: 0}
     - target: {fileID: 5489688049980253831, guid: 74dc9f283338d0746995f88e52d98d77, type: 3}
       propertyPath: m_AnchorMax.x
       value: 1
@@ -41464,6 +41511,30 @@ PrefabInstance:
     - target: {fileID: 6592967462115734416, guid: 74dc9f283338d0746995f88e52d98d77, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887310263231801922, guid: 74dc9f283338d0746995f88e52d98d77, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887310263231801922, guid: 74dc9f283338d0746995f88e52d98d77, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887310263231801922, guid: 74dc9f283338d0746995f88e52d98d77, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887310263231801922, guid: 74dc9f283338d0746995f88e52d98d77, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887310263231801922, guid: 74dc9f283338d0746995f88e52d98d77, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 59
+      objectReference: {fileID: 0}
+    - target: {fileID: 6887310263231801922, guid: 74dc9f283338d0746995f88e52d98d77, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -9
       objectReference: {fileID: 0}
     - target: {fileID: 7712388868182402324, guid: 74dc9f283338d0746995f88e52d98d77, type: 3}
       propertyPath: m_Name

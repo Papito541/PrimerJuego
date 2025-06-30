@@ -571,11 +571,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 9213561276670283277}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -320, y: 170}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50.399994, y: -0.2999878}
   m_SizeDelta: {x: 40, y: 30}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0, y: 1}
 --- !u!222 &8406313861044802554
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -663,10 +663,10 @@ RectTransform:
   - {fileID: 666100682056330406}
   m_Father: {fileID: 9213561276670283277}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 394, y: 158}
-  m_SizeDelta: {x: 50, y: 50}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -25.5, y: -25}
+  m_SizeDelta: {x: 51, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5621237188638677925
 CanvasRenderer:
@@ -827,7 +827,6 @@ MonoBehaviour:
   panelLose: {fileID: 0}
   pausado: 0
   botonpause: {fileID: 3589586177943419696}
-  gameManager: {fileID: 0}
 --- !u!114 &7507698386324130658
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1055,11 +1054,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 9213561276670283277}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -270, y: 170}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 100.399994, y: -0.2999878}
   m_SizeDelta: {x: 40, y: 30}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0, y: 1}
 --- !u!222 &3965781095654093620
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1892,11 +1891,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 9213561276670283277}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -370, y: 170}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 0.3999939, y: -0.30000305}
   m_SizeDelta: {x: 40, y: 30}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0, y: 1}
 --- !u!222 &4956541376770649537
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2215,7 +2214,6 @@ MonoBehaviour:
   panelLose: {fileID: 9188970268361635053}
   pausado: 0
   botonpause: {fileID: 3589586177943419696}
-  gameManager: {fileID: 0}
 --- !u!1 &8407639931931628892
 GameObject:
   m_ObjectHideFlags: 0
@@ -2819,7 +2817,6 @@ MonoBehaviour:
   panelLose: {fileID: 0}
   pausado: 0
   botonpause: {fileID: 3589586177943419696}
-  gameManager: {fileID: 0}
 --- !u!114 &1954167328982283633
 MonoBehaviour:
   m_ObjectHideFlags: 0

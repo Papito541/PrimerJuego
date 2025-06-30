@@ -8,6 +8,7 @@ public class menu : MonoBehaviour
     public Button[] levels;
     public GameObject mainPanel;
     public GameObject levelsPanel;
+    public GameObject volumenPanel;
     public void Exit()
     {
         Application.Quit();
@@ -18,8 +19,10 @@ public class menu : MonoBehaviour
     }
     public void OpenPanel(GameObject panel)
     {
+
         mainPanel.SetActive(false);
         levelsPanel.SetActive(false);
+        volumenPanel.SetActive(false);
 
 
         panel.SetActive(true);

@@ -28,6 +28,8 @@ public class GameManager : MonoBehaviour
         {
             Instance = this;
             DontDestroyOnLoad(gameObject); // Opcional
+            //float volumenGuardado = PlayerPrefs.GetFloat("volumenAudio", 0.5f);
+            //AudioListener.volume = volumenGuardado;
         }
         else
         {
