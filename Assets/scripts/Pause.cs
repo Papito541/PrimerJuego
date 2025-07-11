@@ -38,12 +38,23 @@ public class Pause : MonoBehaviour
         pausado = true;
     }
 
-    public void resetG()
+    public void resetG(int indice)
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        Time.timeScale = 1;
-        ReiniciarVida();
-        pausado = false;
+        if (indice != 0)
+        {
+            SceneManager.LoadScene(indice);
+            Time.timeScale = 1;
+            ReiniciarVida();
+            pausado = false;
+        }
+        else
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            Time.timeScale = 1;
+            ReiniciarVida();
+            pausado = false;
+        }
+        
     }
 
     public void Exit()

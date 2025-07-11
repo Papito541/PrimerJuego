@@ -1,4 +1,4 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class pasarNivel : MonoBehaviour
@@ -6,7 +6,12 @@ public class pasarNivel : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player")){
-            Debug.Log("¡Jugador entró al trigger!");
+            Debug.Log("Â¡Jugador entrÃ³ al trigger!");
+            jugador playerScript = collision.GetComponent<jugador>();
+            if (playerScript != null)
+            {
+                playerScript.DesactivarDobleSalto();
+            }
             DesbloquearNext();
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
@@ -19,7 +24,7 @@ public class pasarNivel : MonoBehaviour
             PlayerPrefs.SetInt("ReachedIndex",SceneManager.GetActiveScene().buildIndex + 1);
             PlayerPrefs.SetInt("UnlockedLevel", PlayerPrefs.GetInt("UnlockedLevel", 1) + 1);
             PlayerPrefs.Save();
-            Debug.Log("¡Se completo!");
+            Debug.Log("Â¡Se completo!");
         }
     }
 }

@@ -945,6 +945,11 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
+    uuid:
+      value0: 0
+      value1: 0
+      value2: 0
+      value3: 0
     guid: -703038718
     name: Pink Start
     layerFlags: 0

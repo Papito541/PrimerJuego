@@ -1,5 +1,5 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
+using UnityEngine.SceneManagement; 
 
 public class GameManager : MonoBehaviour
 {
@@ -28,8 +28,6 @@ public class GameManager : MonoBehaviour
         {
             Instance = this;
             DontDestroyOnLoad(gameObject); // Opcional
-            //float volumenGuardado = PlayerPrefs.GetFloat("volumenAudio", 0.5f);
-            //AudioListener.volume = volumenGuardado;
         }
         else
         {
@@ -44,5 +42,10 @@ public class GameManager : MonoBehaviour
     public void Perder()
     {
         pause.Lose();
+    }
+    public void Reiniciar()
+    {
+        MetaFalsa var = GameObject.FindGameObjectWithTag("puertaFalsa").GetComponent<MetaFalsa>();
+        pause.resetG(MetaFalsa.indice);
     }
 }

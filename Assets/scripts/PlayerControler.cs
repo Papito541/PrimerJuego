@@ -3,7 +3,7 @@ using UnityEngine;
 public class jugador : MonoBehaviour
 {
     private int saltosRes;
-    public int saltosMax;
+    private bool tieneDobleSalto = false;
     public PlayerSound PlayerSound;
     public int vida = 3;
     public float velocidad = 20f;
@@ -32,6 +32,7 @@ public class jugador : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         espadaGO.SetActive(true);
+        saltosRes = 1;
     }
 
     void Update()
@@ -123,22 +124,35 @@ public class jugador : MonoBehaviour
         }
     }
 
+    public void ActivarDobleSalto()
+    {
+        tieneDobleSalto = true;
+    }
+    public void DesactivarDobleSalto()
+    {
+        tieneDobleSalto = false;
+    }
     public void Salto()
     {
         RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down, LongitudRayCast, Suelo);
         en_Suelo = hit.collider != null;
 
-        if (en_Suelo)
+        if (en_Suelo && !estabaEnSuelo)
         {
-            saltosRes = saltosMax;
+            saltosRes = tieneDobleSalto ? 2 : 1;
         }
 
-        if (saltosRes>0 && Input.GetKeyDown(KeyCode.Space) && !recibeDamage && !atacando)
+        if (Input.GetKeyDown(KeyCode.Space) && saltosRes > 0 && !recibeDamage && !atacando)
         {
+            // El primer salto solo se permite si está en el suelo
+            if (saltosRes == (tieneDobleSalto ? 2 : 1) && !en_Suelo)
+                return; // Previene saltar desde el aire
+
             saltosRes--;
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, 0f);
             PlayerSound.PlaySaltar();
             rb.AddForce(new Vector2(0f, Fuerza_salto), ForceMode2D.Impulse);
+            Debug.Log("Salto realizado. Saltos restantes: " + saltosRes);
         }
 
         if (Mathf.Abs(rb.linearVelocity.x) > 0.1f && en_Suelo && !recibeDamage)
@@ -164,6 +178,8 @@ public class jugador : MonoBehaviour
             animator.SetTrigger("Aterrizaje");
             animator.SetBool("EstaCayendo", false);
         }
+
+        estabaEnSuelo = en_Suelo;
     }
 
     public void recibiendoDamage(Vector2 direccion, int cantDamage)
