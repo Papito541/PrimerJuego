@@ -3,36 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\INTEL\\OneDrive\\Documentos\\GitHub\\PrimerJuego\\My project (1)\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BB33860C-FC84-FB00-B1D4-EBEFA97C68DB}|Assembly-CSharp.Player.csproj|C:\\Users\\INTEL\\OneDrive\\Documentos\\GitHub\\PrimerJuego\\My project (1)\\assets\\scripts\\vida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB33860C-FC84-FB00-B1D4-EBEFA97C68DB}|Assembly-CSharp.Player.csproj|solutionrelative:assets\\scripts\\vida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BB33860C-FC84-FB00-B1D4-EBEFA97C68DB}|Assembly-CSharp.Player.csproj|c:\\users\\intel\\onedrive\\documentos\\github\\primerjuego\\my project (1)\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB33860C-FC84-FB00-B1D4-EBEFA97C68DB}|Assembly-CSharp.Player.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB33860C-FC84-FB00-B1D4-EBEFA97C68DB}|Assembly-CSharp.Player.csproj|c:\\users\\intel\\onedrive\\documentos\\github\\primerjuego\\my project (1)\\assets\\scripts\\volumen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB33860C-FC84-FB00-B1D4-EBEFA97C68DB}|Assembly-CSharp.Player.csproj|solutionrelative:assets\\scripts\\volumen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB33860C-FC84-FB00-B1D4-EBEFA97C68DB}|Assembly-CSharp.Player.csproj|c:\\users\\intel\\onedrive\\documentos\\github\\primerjuego\\my project (1)\\assets\\scripts\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB33860C-FC84-FB00-B1D4-EBEFA97C68DB}|Assembly-CSharp.Player.csproj|solutionrelative:assets\\scripts\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB33860C-FC84-FB00-B1D4-EBEFA97C68DB}|Assembly-CSharp.Player.csproj|C:\\Users\\INTEL\\OneDrive\\Documentos\\GitHub\\PrimerJuego\\My project (1)\\assets\\scripts\\pasarnivel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB33860C-FC84-FB00-B1D4-EBEFA97C68DB}|Assembly-CSharp.Player.csproj|solutionrelative:assets\\scripts\\pasarnivel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BB33860C-FC84-FB00-B1D4-EBEFA97C68DB}|Assembly-CSharp.Player.csproj|C:\\Users\\INTEL\\OneDrive\\Documentos\\GitHub\\PrimerJuego\\My project (1)\\assets\\scripts\\metafalsa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB33860C-FC84-FB00-B1D4-EBEFA97C68DB}|Assembly-CSharp.Player.csproj|solutionrelative:assets\\scripts\\metafalsa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BB33860C-FC84-FB00-B1D4-EBEFA97C68DB}|Assembly-CSharp.Player.csproj|C:\\Users\\INTEL\\OneDrive\\Documentos\\GitHub\\PrimerJuego\\My project (1)\\assets\\scripts\\pause.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BB33860C-FC84-FB00-B1D4-EBEFA97C68DB}|Assembly-CSharp.Player.csproj|solutionrelative:assets\\scripts\\pause.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB33860C-FC84-FB00-B1D4-EBEFA97C68DB}|Assembly-CSharp.Player.csproj|C:\\Users\\INTEL\\OneDrive\\Documentos\\GitHub\\PrimerJuego\\My project (1)\\assets\\scripts\\playercontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB33860C-FC84-FB00-B1D4-EBEFA97C68DB}|Assembly-CSharp.Player.csproj|solutionrelative:assets\\scripts\\playercontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB33860C-FC84-FB00-B1D4-EBEFA97C68DB}|Assembly-CSharp.Player.csproj|C:\\Users\\INTEL\\OneDrive\\Documentos\\GitHub\\PrimerJuego\\My project (1)\\assets\\scripts\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB33860C-FC84-FB00-B1D4-EBEFA97C68DB}|Assembly-CSharp.Player.csproj|solutionrelative:assets\\scripts\\enemycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB33860C-FC84-FB00-B1D4-EBEFA97C68DB}|Assembly-CSharp.Player.csproj|C:\\Users\\INTEL\\OneDrive\\Documentos\\GitHub\\PrimerJuego\\My project (1)\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB33860C-FC84-FB00-B1D4-EBEFA97C68DB}|Assembly-CSharp.Player.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,109 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "MetaFalsa.cs",
+              "DocumentMoniker": "C:\\Users\\INTEL\\OneDrive\\Documentos\\GitHub\\PrimerJuego\\My project (1)\\Assets\\scripts\\MetaFalsa.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\MetaFalsa.cs",
+              "ToolTip": "C:\\Users\\INTEL\\OneDrive\\Documentos\\GitHub\\PrimerJuego\\My project (1)\\Assets\\scripts\\MetaFalsa.cs",
+              "RelativeToolTip": "Assets\\scripts\\MetaFalsa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T20:59:11.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Pause.cs",
               "DocumentMoniker": "C:\\Users\\INTEL\\OneDrive\\Documentos\\GitHub\\PrimerJuego\\My project (1)\\Assets\\scripts\\Pause.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\Pause.cs",
               "ToolTip": "C:\\Users\\INTEL\\OneDrive\\Documentos\\GitHub\\PrimerJuego\\My project (1)\\Assets\\scripts\\Pause.cs",
               "RelativeToolTip": "Assets\\scripts\\Pause.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAIwEkAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T15:20:33.51Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-30T15:20:33.51Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "menu.cs",
-              "DocumentMoniker": "C:\\Users\\INTEL\\OneDrive\\Documentos\\GitHub\\PrimerJuego\\My project (1)\\Assets\\scripts\\menu.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\menu.cs",
-              "ToolTip": "C:\\Users\\INTEL\\OneDrive\\Documentos\\GitHub\\PrimerJuego\\My project (1)\\Assets\\scripts\\menu.cs",
-              "RelativeToolTip": "Assets\\scripts\\menu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T21:27:46.001Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Volumen.cs",
-              "DocumentMoniker": "C:\\Users\\INTEL\\OneDrive\\Documentos\\GitHub\\PrimerJuego\\My project (1)\\Assets\\scripts\\Volumen.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\Volumen.cs",
-              "ToolTip": "C:\\Users\\INTEL\\OneDrive\\Documentos\\GitHub\\PrimerJuego\\My project (1)\\Assets\\scripts\\Volumen.cs",
-              "RelativeToolTip": "Assets\\scripts\\Volumen.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T18:23:40.019Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "enemyController.cs",
-              "DocumentMoniker": "C:\\Users\\INTEL\\OneDrive\\Documentos\\GitHub\\PrimerJuego\\My project (1)\\Assets\\scripts\\enemyController.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\enemyController.cs",
-              "ToolTip": "C:\\Users\\INTEL\\OneDrive\\Documentos\\GitHub\\PrimerJuego\\My project (1)\\Assets\\scripts\\enemyController.cs",
-              "RelativeToolTip": "Assets\\scripts\\enemyController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T15:30:33.531Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PlayerControler.cs",
-              "DocumentMoniker": "C:\\Users\\INTEL\\OneDrive\\Documentos\\GitHub\\PrimerJuego\\My project (1)\\Assets\\scripts\\PlayerControler.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\PlayerControler.cs",
-              "ToolTip": "C:\\Users\\INTEL\\OneDrive\\Documentos\\GitHub\\PrimerJuego\\My project (1)\\Assets\\scripts\\PlayerControler.cs",
-              "RelativeToolTip": "Assets\\scripts\\PlayerControler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T15:23:45.162Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\INTEL\\OneDrive\\Documentos\\GitHub\\PrimerJuego\\My project (1)\\Assets\\scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\scripts\\GameManager.cs",
               "ToolTip": "C:\\Users\\INTEL\\OneDrive\\Documentos\\GitHub\\PrimerJuego\\My project (1)\\Assets\\scripts\\GameManager.cs",
               "RelativeToolTip": "Assets\\scripts\\GameManager.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAgwBUAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwCsAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T15:19:27.346Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Vida.cs",
-              "DocumentMoniker": "C:\\Users\\INTEL\\OneDrive\\Documentos\\GitHub\\PrimerJuego\\My project (1)\\Assets\\scripts\\Vida.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\Vida.cs",
-              "ToolTip": "C:\\Users\\INTEL\\OneDrive\\Documentos\\GitHub\\PrimerJuego\\My project (1)\\Assets\\scripts\\Vida.cs",
-              "RelativeToolTip": "Assets\\scripts\\Vida.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T15:13:03.239Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "pasarNivel.cs",
-              "DocumentMoniker": "C:\\Users\\INTEL\\OneDrive\\Documentos\\GitHub\\PrimerJuego\\My project (1)\\Assets\\scripts\\pasarNivel.cs",
-              "RelativeDocumentMoniker": "Assets\\scripts\\pasarNivel.cs",
-              "ToolTip": "C:\\Users\\INTEL\\OneDrive\\Documentos\\GitHub\\PrimerJuego\\My project (1)\\Assets\\scripts\\pasarNivel.cs",
-              "RelativeToolTip": "Assets\\scripts\\pasarNivel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T00:50:37.302Z",
+              "WhenOpened": "2025-06-30T15:19:27.346Z",
               "EditorCaption": ""
             }
           ]

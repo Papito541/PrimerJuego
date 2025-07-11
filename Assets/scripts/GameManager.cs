@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
-
+    public int nivelAnterior;
     public Pause pause;
 
     void OnEnable()
@@ -42,10 +42,5 @@ public class GameManager : MonoBehaviour
     public void Perder()
     {
         pause.Lose();
-    }
-    public void Reiniciar()
-    {
-        MetaFalsa var = GameObject.FindGameObjectWithTag("puertaFalsa").GetComponent<MetaFalsa>();
-        pause.resetG(MetaFalsa.indice);
     }
 }
